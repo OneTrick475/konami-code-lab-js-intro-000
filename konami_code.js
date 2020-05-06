@@ -18,9 +18,9 @@ function init() {
      const key = e.key;
     if(codes[i] === key){
       i++;
-      
+
       if(i === codes.length){
-        console.alert('wp');
+        console.alert('Hurray');
       }
     }else{
         i=0;
