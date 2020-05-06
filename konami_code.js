@@ -17,7 +17,7 @@ function init() {
     let i=0;
    function onKeyDownHandler(e){
      const key = e.key;
-    if(codes[i] === key){
+    if(key === codes[i]){
       i++;
 
       if(i === codes.length){
