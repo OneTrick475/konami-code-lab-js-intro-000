@@ -20,7 +20,8 @@ function init() {
       i++;
 
       if(i === codes.length){
-        console.alert('Hurray');
+        alert('Hurray');
+        i=0;
       }
     }else{
         i=0;
