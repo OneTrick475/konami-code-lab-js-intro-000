@@ -12,10 +12,10 @@ const codes = [
 ];
 
 function init() {
+  let i=0;
   document.body.addEventListener("keydown", (event) =>{
-    const key = e.key;
-     let i=0;
      function konami(e){
+       const key = e.key;
     if(codes[i] === key){
       i++;
       }
