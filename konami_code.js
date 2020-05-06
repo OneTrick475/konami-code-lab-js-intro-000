@@ -14,7 +14,7 @@ const codes = [
 function init() {
   let i=0;
   document.body.addEventListener("keydown", (event) => {
-   function konami(e){
+   function onKeyDownHandler(e){
      const key = e.key;
     if(codes[i] === key){
       i++;
