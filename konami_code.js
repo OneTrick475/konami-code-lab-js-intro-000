@@ -17,14 +17,14 @@ function init() {
     let i=0;
      const key = event.key;
     for(let i=0; i<codes.length; i++){
-      if(key === codes[i]){
-      if(i+1 === codes.length){
-        alert('Hurray');
+      if(key === codes[i]){;}
+        else{
+        i=0;
       }
-    }
-      else{
+      if(i+1 === codes.length){
+        alert('Hurray!');
         i=0;
       }
     }
-  })
+})
 }
