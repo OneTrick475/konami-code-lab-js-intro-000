@@ -15,8 +15,7 @@ function init() {
 
   document.body.addEventListener("keydown", (event) => {
     let i=0;
-   function onKeyDownHandler(e){
-     const key = e.key;
+     const key = event.key;
     if(key === codes[i]){
       i++;
 
@@ -27,6 +26,5 @@ function init() {
     }else{
         i=0;
       }
-      }
     })
-   }
+    }
