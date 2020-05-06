@@ -1,4 +1,4 @@
-/*require('./helpers.js')
+require('./helpers.js')
 const sinon = require('sinon')
 
 describe("index.js", () => {
@@ -46,10 +46,10 @@ describe("index.js", () => {
       var savedAlert = window.alert
 
       try {
-        var spy = sinon.spy(window, 'alert');*/
+        var spy = sinon.spy(window, 'alert');
         init()
 
-        /*for (let i = 0; i < codes.length - 1; i++) {
+        for (let i = 0; i < codes.length - 1; i++) {
           triggerKeyDown(codes[i])
         }
         triggerKeyDown("ArrowUp")
